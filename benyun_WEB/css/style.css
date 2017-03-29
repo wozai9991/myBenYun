@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+label{
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    width:150px;
+}
+input{
+    position: relative;
+    display:block;
+    margin: 0 auto 10px;
+    float: left;
+}
+form{
+    position: relative;
+}
+.container{
+    margin: 0 auto;
+    width:500px;
+}
+.covered{
+    text-indent: -9999px;
+    height:10px;
+    clear:both;
+}
+.warning{
+    color:darkred;
+    position:relative;
+    margin-top:15px;
+    margin-left: 150px;
+    clear:both;
+    display: none;
+}

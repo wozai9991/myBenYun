@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 检验密码 </title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>检验首次输入的密码和二次输入的密码是否一致</h1>
+<form action="" method="post">
+    <div class="container">
+        <label for="password">密码</label>
+        <input type="password" name="password" id="password"/>
+        <div class="covered">遮罩</div>
+        <label for="checkedPassword">确认密码</label>
+        <input type="password" id="checkedPassword"/>
+        <div class="warning" id="warning_type">*请输入密码</div>
+        <div class="warning" id="warning_different">*密码不一致</div>
+        <div class="covered">遮罩</div>
+    </div>
+</form>
+<script>
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#checkedPassword").blur(function(){
+            var pswArr=[];
+            $("input[type=password]").each(function(){
+                pswArr.push($(this).val());
+            });
+            var ar1 = pswArr[0];
+            var ar2 = pswArr[1];
+            if(ar2 === ""){
+                $("#warning_type").show();
+                $("#warning_different").hide();
+            }
+            else if (ar2 !== ar1 ){
+                $("#warning_different").show();
+                $("#warning_type").hide();
+            }
+            else {
+                $("#warning_different").hide();
+                $("#warning_type").hide();
+
+            }
+        });
+
+    })
+</script>
+</body>
+</html>
