@@ -1,0 +1,75 @@
+body{width:100%; padding:0; margin:0;}
+body{background: #ffffff; color: #333333;font-size: 16px; font-family: Microsoft YaHei,Helvetica, Arial, sans-serif;}
+img{max-width:100%;height: auto;width: auto;}
+h1{font-size: 55px;}
+h2{font-size: 45px;}
+ul{list-style: none;}
+a{color: #333333;text-decoration: none;}
+a:hover{color:#3598c5;text-decoration: none;}
+.navbar-absolute{position:absolute !important;}
+.navbar-default{border-color: transparent;background-color: #395364;}
+.navbar-default .navbar-brand{font-family: Microsoft YaHei,Helvetica,Arial,cursive;color: #5b5dfe;}
+.navbar-default .navbar-collapse{border-color: rgba(255,255,255,0.02);}
+.navbar-default .nav li a{text-transform: uppercase;font-weight: 400;letter-spacing: 1px;color: #fff;} .navbar-default .navbar-brand{font-size: 2em; -webkit-transition: all .3s; -moz-transition: all .3s; transition: all .3s;} .navbar-default.navbar-shrink .navbar-brand{font-size: 1.5em;} .navbar-default .navbar-nav>.active>a{border-radius: 3px;} .navbar-default.navbar-shrink{padding: 10px 0; background-color: #222;}
+header{color: #fff; background-attachment: scroll; background-image: url(../images/banner_bg-1920.png); background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover;} header img{display: block; margin: 30% auto 10% auto;} header{background-color:rgba(0,0,0,0.5);} .intro-text .intro-heading{margin-bottom: 25px;text-transform: uppercase;font-family: Microsoft YaHei,Montserrat,Helvetica,Arial,sans-serif;font-size: 50px;font-weight: 700;line-height: 50px;} .intro-text .intro-con{margin-bottom: 30px;font-size: 30px;line-height: 30px;} .intro-text .intro-heading{margin-bottom: 30px;text-transform: uppercase;font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;font-size: 50px;font-weight: 700;line-height: 50px;} .intro-text .link-more{position:relative; color:#fff; padding:9px 22px; border:1px solid #fff; border-radius: 5px; top: 50px;}
+.intro-text .intro-title{padding-left:35px;margin-bottom: 30px;font-size: 28px;line-height: 28px;font-weight: 500;}
+.intro-text .intro-passage{font-size: 14px;line-height:18px;margin-bottom: 10%;}
+.intro-text .intro-list{padding-left: 1em; font-size: 14px;}
+@media(min-width:8px){header .intro-text{margin-top: 30%; padding-top: 10px; /*padding-bottom: 00px;*/}}
+.text_indent{text-indent: -9999px;}
+.colorBlue{background:#3598c5;}
+.banner1 , .banner3{margin-top: 5%;}
+.banner1 .intro-text{margin: 10% auto auto 30%;}
+#iconMOBLIE{background-image: url("../images/icon_moblie.png"); background-repeat: no-repeat; background-position: 5px;}
+#iconPC{background-image: url("../images/icon_pc.png"); background-repeat: no-repeat;}
+.banner2{color: #fff; /*background-color:rgba(0,0,0,0.9);*/ /*background-attachment: scroll;*/ width:100%; background-image: url(../images/banner2-1920.png); background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;}
+.banner2 .intro-text{margin: 200px auto 20px auto;}
+.banner2 img{position:relative; top:-25px;}
+.banner2 .intro-text .intro-title , .banner3 .intro-text .intro-title,.banner4 .intro-text .intro-title ,.banner5 .intro-text .intro-title,.banner6 .intro-text .intro-title,.banner7 .intro-text .intro-title,.banner8 .intro-text .intro-title,ul{padding-left: 0;}
+.banner3 .intro-text .intro-title ,.banner4 .intro-text .intro-title,.banner5 .intro-text .intro-title,.banner6 .intro-text .intro-title,.banner7 .intro-text .intro-title,.banner8 .intro-text .intro-title{margin-top: 25px;}
+.banner3 > .row > .col-lg-6 > img{margin-bottom: 20px;}
+.banner3 .intro-text{margin-left: 8%; width: 20em;}
+.banner4{background:#395364; color:#fff; width:100%; /*padding-left: 13%;*/ padding-top: 50px; padding-bottom: 10px;}
+.banner5 ,.banner7{background: #e6e6e6; width:100%; padding-top: 50px; padding-bottom: 50px;}
+.banner6, .banner8{width:100%; padding-top: 50px; padding-bottom: 50px;}
+.banner5 .intro-text .intro-list ,.banner6 .intro-text .intro-passage , .banner7 .intro-text .intro-passage ,.banner8 .intro-text .intro-passage{width:20em;}
+.banner6 .intro-passage ,.banner7 .intro-passage ,.banner8 .intro-passage ,.banner8 .intro-title{margin:0 auto 10px auto;}
+.banner3 .intro-text ,.banner5 .intro-list{margin:0 auto;}
+.banner7 .intro-text{margin-top: 15%;}
+.banner8 .intro-text .intro-title{width:9em;}
+.banner8 > .row > .col-lg-6 > img{padding-right: 10px;}
+.tac{text-align: center;}
+.banner9{background: #395364; padding-top: 55px; padding-bottom: 65px; color: #fff;}
+.banner9 a:hover{color:#395364;}
+.banner9 a{color:#395364; padding:11px 32px; background: #fff; border-radius: 3px;}
+.borderright{border-right: 1px solid #395364; width:10em; margin-left:10px; text-align: left;}
+@media (max-width: 1024px){.borderright{border-right: 0px; width:auto; text-align: center;}}
+.wrap-footer .intro-passage{margin-right: 55px; margin-top: 20px; margin-bottom: 5px;}
+.wrap-footer .intro-text{padding-left: 1em; background-image: url("../images/icon_phone.png"); background-repeat: no-repeat; background-position: 35px 10px;}
+footer{color: #fff; text-align: center;}
+footer .wrap-footer{padding-top: 50px;background-color: #373f4a;}
+footer a{color:#fff;}
+footer .col-footer{margin-bottom: 20px;}
+.clearFloat{
+    clear: both;
+    text-indent: -999999px;
+}
+@media(min-width:768px){.navbar-default{padding: 25px 0; border: 0; background-color: transparent; -webkit-transition: padding 0.5s; -moz-transition: padding 0.5s; transition: padding 0.5s;}}
+
+@media (max-width: 1024px) {
+    header .intro-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    header .intro-con {
+        font-size: 20px !important;
+    }
+    header .intro-text .intro-heading{
+        font-size: 40px !important;
+    }
+    .banner2 .intro-text .intro-title,.banner5 .intro-text .intro-title,.banner6 .intro-text .intro-title,.banner8 .intro-text .intro-title,.banner7 .intro-text .intro-title,.banner9 .intro-text .intro-title{
+        font-size: 24px !important;
+    }
+}
